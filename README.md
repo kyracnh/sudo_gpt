@@ -1,0 +1,2 @@
+# sudogpt
+Mini LLM
