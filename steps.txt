@@ -1,0 +1,29 @@
+# 🚀 Steps to Build `sudoGPT` - A ChatGPT-like Bot in C++
+
+## ✅ Step 1: Build the Base Chatbot
+1. Create a new C++ project folder.
+2. Set up `main.cpp` with a basic input/output loop.
+3. Add simple keyword-based responses.
+4. Add delay to simulate "thinking".
+5. Compile and run the program.
+
+## ✅ Step 2: Add Smarter Response Logic
+6. Use a `map` or `unordered_map` for keyword-response pairs.
+7. Normalize input (e.g., convert to lowercase).
+8. Handle unknown input with fallback replies.
+9. Store chat history in a vector or file.
+10. Add basic response variation using randomness.
+
+## ✅ Step 3: Implement Simple AI Techniques
+11. Create response generation using Markov Chains.
+12. Add a basic search through a text-based knowledge base.
+13. Load responses or rules from a `.txt` or `.json` file.
+14. Implement memory: recall past questions/responses.
+15. Simulate learning by updating stored data during runtime.
+
+## ✅ Optional Bonus Steps
+16. Save and load chat history from disk.
+17. Add a simple GUI using SFML, Qt, or ImGui.
+18. Add speech (TTS) output.
+19. Integrate a small ONNX model (advanced).
+20. Package your chatbot as a standalone app.
